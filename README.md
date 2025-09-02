@@ -24,7 +24,12 @@ It lets you upload an image (JPG or PNG), and a pretrained **MobileNetV2** model
    OPENAI_API_KEY=your_api_key_here
 ```
 
-4. Run the script:
+4. Run the app:
 ```bash
-   python main.py
+   streamlit run app.py
 ```
+
+5. How to use
+Upload an image (.jpg or .png).
+Click Classify Image.
+The app will display the top-3 predictions with confidence scores.
