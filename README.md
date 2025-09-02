@@ -1,6 +1,7 @@
 # AI Image Classifier
 
 This is a simple **learning project** built with **Streamlit** and **TensorFlow (Keras)**.  
+
 It lets you upload an image (JPG or PNG), and a pretrained **MobileNetV2** model (trained on ImageNet) will classify it into the top-3 most likely categories.  
 
 ---
@@ -29,7 +30,7 @@ It lets you upload an image (JPG or PNG), and a pretrained **MobileNetV2** model
    streamlit run app.py
 ```
 
-5. How to use
-Upload an image (.jpg or .png).
-Click Classify Image.
-The app will display the top-3 predictions with confidence scores.
+5. How to use:
+    - Upload an image (.jpg or .png).
+    - Click Classify Image.
+    - The app will display the top-3 predictions with confidence scores.
